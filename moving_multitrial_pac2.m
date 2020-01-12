@@ -13,13 +13,14 @@ function [temporal_plv,Times]=moving_multitrial_pac2(signals,srate,Pf1,Pf2,Af1,A
 % temporal_plv = Phase-Amplitude Coupling array over the different temporal segments
 
 %Cohen MX."Assessing transient cross-frequency coupling in EEG data"
-% Journal of Neuroscience Methods 168 (2008) 494–499
+% Journal of Neuroscience Methods 168 (2008) 494â€“499
 
 %W.D. Penny et al., "Testing for nested oscillation"
-%Journal of Neuroscience Methods 174 (2008) 50–61
+%Journal of Neuroscience Methods 174 (2008) 50â€“61
 
 %DIMITRIADIS STAVROS 9/2017  
-%http://users.auth.gr/~stdimitr/index.html
+%     https://www.researchgate.net/profile/Stavros_Dimitriadis 
+%     Contact: stidimitriadis@gmail.com / DimitriadisS@cardiff.ac.uk
 
 %get the phase of the low-frequency band
 % this is just filtering 
